@@ -25,11 +25,18 @@ crossref: true
 colorlinks: true
 ---
 
-# Título: PProyecto ventilador de emergencia del MIT (E-Vent)
+# Título: Proyecto ventilador de emergencia del MIT (E-Vent)
 
 ### Referencia:
 
 Toda la información compilada aquí se puede encontrar [en este enlace] (https://e-vent.mit.edu/)
+
+
+Para descargar el repo: [**DOWNLOAD**](https://github.com/CombatCovid/mit-emergency-ventilator/archive/master.zip)
+
+
+
+El url del repositorio: [https://github.com/CombatCovid/mit-emergency-ventilator](https://github.com/CombatCovid/mit-emergency-ventilator)
 
 ## Antecedentes y necesidad
 

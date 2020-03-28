@@ -27,9 +27,15 @@ colorlinks: true
 
 # Title: MIT Emergency Ventilator (E-Vent) Project
 
-### Reference: 
+### References: 
 
-All the info compiled here can be found [in this link](https://e-vent.mit.edu/)
+All the information compiled here is from the [MIT Emergency Ventilator (E-Vent) Project](https://e-vent.mit.edu/)
+
+To download our repo: [**DOWNLOAD**](https://github.com/CombatCovid/mit-emergency-ventilator/archive/master.zip)
+
+
+
+This is the url of our repo : [https://github.com/CombatCovid/mit-emergency-ventilator](https://github.com/CombatCovid/mit-emergency-ventilator)
 
 ## Background & Need
 
