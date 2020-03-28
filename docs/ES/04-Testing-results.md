@@ -1,5 +1,5 @@
 ---
-title: "MIT Emergency Ventilator (E-Vent) Project"
+title: "Proyecto ventilador de emergencia del MIT (E-Vent)"
 output: pdf_document
 documentclass: article
 classoption: onecolumn
@@ -25,25 +25,28 @@ crossref: true
 colorlinks: true
 ---
 
-# Testing results
+# Resultados de la prueba
 
-They  are working with certified animal testing labs to conduct studies in animal models under [IACUC-Institutional Animal Care and Use Committee](https://olaw.nih.gov/resources/tutorial/iacuc.htm) approved protocols. A porcine model was chosen as pigs have a respiratory systems that is most similar to human beings. **This is essential in order to evaluate system performance and safety. We would like to anonymously acknowledge the laboratory staff for their tireless efforts, and the donors who are enabling this rapid scale-up of animal testing.**
+Están trabajando con laboratorios de pruebas de animales certificados para llevar a cabo estudios en modelos animales bajo los protocolos aprobados por [IACUC-Comité Institucional de Cuidado y Uso de Animales] (https://olaw.nih.gov/resources/tutorial/iacuc.htm). Se eligió un modelo porcino ya que los cerdos tienen un sistema respiratorio que es más similar al de los seres humanos. **Esto es esencial para evaluar el rendimiento y la seguridad del sistema. Nos gustaría reconocer de forma anónima al personal del laboratorio por sus incansables esfuerzos, y a los donantes que están permitiendo esta rápida ampliación de la experimentación con animales.**
 
-## Study 1 – 20 March 2020
-Porcine study Nr 1 was conducted at a leading research facility in the Boston area. In addition to the facility staff (veterinarians, technologists, and Study), our on-site team consisted of Emergency Medicine and Anesthesia physicians working along side mechanical design, manufacturing, controls, and electrical engineers. The goals of this study were as follows:
+## Estudio 1 - 20 de marzo de 2020
+El estudio porcino número 1 se realizó en una instalación de investigación líder en el área de Boston. Además del personal de la instalación (veterinarios, tecnólogos y estudio), nuestro equipo en el lugar consistía en médicos de medicina de emergencia y anestesia que trabajaban junto con ingenieros mecánicos, de fabricación, controles e ingeniería eléctrica. Los objetivos de este estudio fueron los siguientes:
 
-- Conduct a functional test of the prototype MIT E-Vent Unit 001.
-- Compare ventilation with the E-Vnet to that of a Puritan Bennet 840 Ventilator system (2016 model year, [Medtronic](https://www.medtronic.com/covidien/en-us/products/mechanical-ventilation/puritan-bennett-840-ventilator.html)) graciously loaned to us.
+- Realice una prueba funcional del prototipo MIT E-Vent Unit 001.
+- Compare la ventilación con el E-Vnet con la de un sistema de ventilación Puritan Bennet 840 (año modelo 2016, [Medtronic](https://www.medtronic.com/covidien/en-us/products/mechanical-ventilation/puritan- bennett-840-ventilator.html)) gentilmente prestado a nosotros.
 
-### Key Learnings (more results will be forthcoming)
+### Aprendizajes clave (se obtendrán más resultados)
 
-- We identifies deficiencies in the all-laser cut design. We have already transitioned to a metal frame design.
-- We more accurately defined key parameters related to power requirements for a drive system.
-- We investigated potential control strategies and identified key UI/UX requirements as well as human factors.
-- We determined key pressures when connected to a real lung and with PEEP set.
+- Identificamos deficiencias en el diseño de corte totalmente láser. Ya hemos hecho la transición a un diseño de marco de metal.
+- Definimos con mayor precisión los parámetros clave relacionados con los requisitos de energía para un sistema de accionamiento.
+- Investigamos posibles estrategias de control e identificamos requisitos clave de UI / UX, así como factores humanos.
+- Determinamos las presiones clave cuando se conecta a un pulmón real y con un conjunto de PEEP.
 
-![](../../img/testing-result-20032020-01.jpg)![](../../img/testing-result-20032020-02.jpg)![](../../img/testing-result-20032020-03.jpg)![](../../img/testing-result-20032020-04.jpg)
+![](../../img/testing-result-20032020-01.jpg)
+![](../../img/testing-result-20032020-02.jpg)
+![](../../img/testing-result-20032020-03.jpg)
+![](../../img/testing-result-20032020-04.jpg)
 
-### Next Steps
+### Próximos pasos
 
-The next study will conduct a functional test Unit 002 in a similar porcine model.
+El próximo estudio llevará a cabo una prueba funcional de la Unidad 002 en un modelo porcino similar.

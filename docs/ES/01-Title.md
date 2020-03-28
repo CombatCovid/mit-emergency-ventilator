@@ -1,5 +1,5 @@
 ---
-title: "MIT Emergency Ventilator (E-Vent) Project"
+title: "Proyecto ventilador de emergencia del MIT (E-Vent)"
 output: pdf_document
 documentclass: article
 classoption: onecolumn
@@ -25,54 +25,50 @@ crossref: true
 colorlinks: true
 ---
 
-# Title: MIT Emergency Ventilator (E-Vent) Project
+# Título: PProyecto ventilador de emergencia del MIT (E-Vent)
 
-### Reference: 
+### Referencia:
 
-All the info compiled here can be found [in this link](https://e-vent.mit.edu/)
+Toda la información compilada aquí se puede encontrar [en este enlace] (https://e-vent.mit.edu/)
 
-## Background & Need
+## Antecedentes y necesidad
 
-We are one of several teams who recognized the challenges faced by Italian physicians, and are working to find a solution to the anticipated global lack of ventilators. In the US alone, the COVID-19 pandemic may cause ventilator shortages on the order of 300,000-700,000 units (CDC Pandemic Response Plans). These could present on a national scale within weeks, and are already being felt in certain areas. An increase in conventional ventilator production is very likely to fall short and with significant associated cost (paywall warning).
+Somos uno de los varios equipos que reconocieron los desafíos que enfrentan los médicos italianos y estamos trabajando para encontrar una solución a la anticipada falta global de ventiladores. Solo en los EE. UU., La pandemia de COVID-19 puede causar escasez de ventiladores del orden de 300,000-700,000 unidades (Planes de respuesta a la pandemia de los CDC). Estos podrían presentarse a escala nacional en semanas, y ya se están sintiendo en ciertas áreas. Es muy probable que un aumento en la producción de ventiladores convencionales se quede corto y con un costo asociado significativo (advertencia del muro de pago).
 
-Almost every bed in a hospital has a manual resuscitator (Ambu-Bag) nearby, available in the event of a rapid response or code where healthcare workers maintain oxygenation by squeezing the bag. Automating this appears to be the simplest strategy that satisfies the need for low-cost mechanical ventilation, with the ability to be rapidly manufactured in large quantities. However, doing this safely is not trivial.
+Casi todas las camas en un hospital tienen un resucitador manual (Ambu-Bag) cerca, disponible en caso de una respuesta rápida o un código donde los trabajadores de la salud mantienen la oxigenación apretando la bolsa. La automatización de esta parece ser la estrategia más simple que satisface la necesidad de ventilación mecánica de bajo costo, con la capacidad de fabricarse rápidamente en grandes cantidades. Sin embargo, hacer esto de manera segura no es trivial.
 
-Use of a bag-valve mask (BVM) in emergency situations is not a new concept. A portable ventilator utilizing an ambu-bag was introduced in 2010 by a student team in the MIT class 2.75 Medical Device Design (original paper here and news story here), but did not move past the prototype stage. Around the same time, a team from Stanford developed a lower-cost ventilator for emergency stockpiles and the developing world. It looks similar to a modern ICU ventilator (Onebreath), but “production for US hospitals would start [in] about 11 months”, making it “a second wave solution” (MIT Tech Review Article). Last year, the AMBU® Bag concept was re-visited by two student teams, one from Rice university (here & here), and another Boston-based team who won MIT Sloan’s Healthcare prize (MIT News: Umbilizer). Other teams currently working on this challenge can be found linked on our “Additional Resources” page.
+El uso de una máscara de válvula de bolsa (BVM) en situaciones de emergencia no es un concepto nuevo. En 2010, un equipo de estudiantes del MIT clase 2.75 Diseño de dispositivos médicos (documento original aquí y noticia aquí) introdujo un ventilador portátil que utilizaba una bolsa ambu, pero no pasó de la etapa del prototipo. Casi al mismo tiempo, un equipo de Stanford desarrolló un ventilador de menor costo para las reservas de emergencia y el mundo en desarrollo. Se parece a un ventilador moderno de la UCI (Onebreath), pero "la producción para los hospitales de EE. UU. Comenzaría [en] aproximadamente 11 meses", lo que lo convierte en "una solución de segunda ola" (Artículo de revisión técnica del MIT). El año pasado, dos equipos de estudiantes volvieron a visitar el concepto AMBU® Bag, uno de la universidad Rice (aquí y aquí) y otro equipo con sede en Boston que ganó el premio MIT Sloan’s Healthcare (MIT News: Umbilizer). Otros equipos que trabajan actualmente en este desafío se pueden encontrar vinculados en nuestra página de "Recursos adicionales".
 
-## Key Research Question
+## Pregunta clave de investigación
 
-We have launched an emergency research project with a team of MIT Engineers and American clinicians to address the question:
+Hemos lanzado un proyecto de investigación de emergencia con un equipo de ingenieros del MIT y clínicos estadounidenses para abordar la pregunta:
 
-**Is it possible to safely ventilate a COVID-19 patient by automatically actuating a manual resuscitator?**
+**¿Es posible ventilar de manera segura a un paciente con COVID-19 accionando automáticamente un reanimador manual?**
 
-Our process in approaching this question is to first identify the minimum requirements for a low-cost ventilator, based on the collective wisdom of many clinicians, design against these requirements, conduct immediate testing, report the results, iterate and facilitate discussion.
+Nuestro proceso para abordar esta pregunta es identificar primero los requisitos mínimos para un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos, diseñar contra estos requisitos, realizar pruebas inmediatas, informar los resultados, repetir y facilitar la discusión.
 
-Manual ventilation with an Ambu-bag is a short-term solution in a critical care environment, without any apparent clinical evidence regarding the safety of long-term use (days-weeks). There are multiple scenarios in which respiratory support could be needed: patients can be awake or asleep, sedated or sedated and paralyzed, breathing spontaneously, weaning off of a vent, etc. Furthermore, changing clinical presentations with ARDS require shifting minute ventilation (tidal volume x respiratory rate) to “lung-protective” strategies, which place patient’s at risk for things like auto-PEEP. Some of these situations are simpler than others, with the simplest being ventilating a sedated, paralyzed patient, and at a minimum a safe emergency ventilator could be used in such a situation to free-up a conventional ventilator.
+La ventilación manual con una bolsa Ambu es una solución a corto plazo en un entorno de cuidados críticos, sin evidencia clínica aparente con respecto a la seguridad del uso a largo plazo (días-semanas). Existen múltiples escenarios en los que podría necesitarse soporte respiratorio: los pacientes pueden estar despiertos o dormidos, sedados o sedados y paralizados, respirar espontáneamente, destetar de un respiradero, etc. Además, cambiar las presentaciones clínicas con SDRA requiere un cambio de ventilación minuto (volumen corriente) x frecuencia respiratoria) a estrategias de "protección pulmonar", que ponen al paciente en riesgo de cosas como auto-PEEP. Algunas de estas situaciones son más simples que otras, siendo la más simple la ventilación de un paciente paralizado y sedado, y como mínimo se podría usar un ventilador de emergencia seguro en tal situación para liberar un ventilador convencional.
 
-Any solution should be utilized only in a healthcare setting with direct monitoring by a clinical professional. While it cannot replace an FDA-approved ICU ventilator, in terms of functionality, flexibility, and clinical efficacy, the MIT E-Vent is anticipated to have utility in helping free up existing supply or in life-or-death situations when there is no other option.
+Cualquier solución debe utilizarse solo en un entorno de atención médica con monitoreo directo por parte de un profesional clínico. Si bien no puede reemplazar un ventilador ICU aprobado por la FDA, en términos de funcionalidad, flexibilidad y eficacia clínica, se espera que el MIT E-Vent tenga utilidad para ayudar a liberar el suministro existente o en situaciones de vida o muerte cuando no hay otra opción.
 
-Further, any low-cost ventilator system must take great care regarding providing clinicians with the ability to closely control and monitor tidal volume, inspiratory pressure, bpm, and I/E ratio, and be able to provide additional support in the form of PEEP, PIP monitoring, filtration, and adaptation to individual patient parameters. We recognize, and would like to highlight for anyone seeking to manufacture a low-cost emergency ventilator, that failing to properly consider these factors can result in serious long-term injury or death.
+Además, cualquier sistema de ventilación de bajo costo debe tener mucho cuidado con respecto a proporcionar a los médicos la capacidad de controlar y monitorear de cerca el volumen corriente, la presión inspiratoria, las ppm y la relación I / E, y poder brindar apoyo adicional en forma de PEEP, Monitoreo PIP, filtración y adaptación a parámetros individuales del paciente. Reconocemos, y nos gustaría resaltar para cualquiera que busque fabricar un ventilador de emergencia de bajo costo, que no considerar adecuadamente estos factores puede provocar lesiones graves o la muerte a largo plazo.
 
 ![MIT E-vent Unit 002 setup](../../img/mit-e-vent-unit-002-setup.jpg)
 
-![Mannequin controller Board 00 Setup](../../img/MIT_E_Vent_Mannequin_ControllerBoard.jpg)
-
-## Open Source Design
-At the present time, we are producing four sets of material, which we will be releasing and updating on this site in an open-source fashion:
-
-1. Minimum safe ventilator functionality based on clinical guidance
-2. Reference hardware design for meeting minimum clinical requirements
-3. Reference control strategies and electronics designs and supporting insights
-4. Results from testing in animal models
-
-We are releasing this material with the intent to provide those with the ability to make or manufacture ventilators, the tools needed to do so in a manner that seeks to ensure patient safety. Clinicians viewing this site can provide input and expertise and report on their efforts to help their patients.
-
-As with any research to design to scale-up to manufacture, we anticipated that there will be many problems and it is our goal to provide this site as a tool to “close the loop” and receive feedback. We will also do our best to publish the most relevant pieces of information in the discussion forum for all to see.
-
-We invite anyone who is interested to follow this work.
 
 
+## Diseño de código abierto
+En la actualidad, estamos produciendo cuatro conjuntos de material, que lanzaremos y actualizaremos en este sitio de manera de código abierto:
 
+1. Funcionalidad mínima segura del ventilador basada en orientación clínica
+2. Diseño de hardware de referencia para cumplir con los requisitos clínicos mínimos
+3. Estrategias de control de referencia y diseños electrónicos y conocimientos de apoyo.
+4. Resultados de las pruebas en modelos animales.
 
+Estamos lanzando este material con la intención de proporcionar a aquellos con la capacidad de fabricar o fabricar ventiladores, las herramientas necesarias para hacerlo de una manera que busque garantizar la seguridad del paciente. Los médicos que visitan este sitio pueden proporcionar información y experiencia e informar sobre sus esfuerzos para ayudar a sus pacientes.
+
+Al igual que con cualquier investigación para diseñar, escalar y fabricar, anticipamos que habrá muchos problemas y nuestro objetivo es proporcionar este sitio como una herramienta para "cerrar el círculo" y recibir comentarios. También haremos todo lo posible para publicar la información más relevante en el foro de discusión para que todos la vean.
+
+Invitamos a cualquier persona interesada a seguir este trabajo.
 
 

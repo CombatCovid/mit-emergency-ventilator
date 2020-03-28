@@ -1,5 +1,5 @@
 ---
-title: "MIT Emergency Ventilator (E-Vent) Project"
+title: "Proyecto ventilador de emergencia del MIT (E-Vent)"
 output: pdf_document
 documentclass: article
 classoption: onecolumn
@@ -25,138 +25,137 @@ crossref: true
 colorlinks: true
 ---
 
-# Mechanical design
+# Diseño Mecanico
 
- How does the E-vent looks like?
+ Como es el E-vent en accion? 
 
- See how the [emergency ventilator works here](https://e-vent.mit.edu/wp-content/uploads/2020/03/002-bench-testing-scaled-1.mp4)
+ Para que veas como funciona E-vent [dirigete aqui](https://e-vent.mit.edu/wp-content/uploads/2020/03/002-bench-testing-scaled-1.mp4)
 
  
 
-## Files to download
+## Ficheros para descargar
 
-Follow this [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src\MITeVentDXFs\DXFs-For-Website) where there are all the .dxf files .
+Sigue este [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src\MITeVentDXFs\DXFs-For-Website) donde estan todos los .dxg ficheros.
 
 
-**This section documents the mechanical design of the MIT E-Vent.**
+**Esta sección documenta el diseño mecánico del MIT E-Vent.**
 
-***Please understand that we are designing, testing and posting information as fast as we can. We have no hidden information and more detailed plans will post as soon as we draw them!***
+**Por favor, comprenda que estamos diseñando, probando y publicando información lo más rápido posible. ¡No tenemos información oculta y se publicarán planes más detallados tan pronto como los dibujemos!***
 
-**Note:** Any mechanical design must meet the specifications outlined in the [Getting started section](./02-Getting-started.md).
+**Nota:** Cualquier diseño mecánico debe cumplir con las especificaciones descritas en la [Sección de inicio](./ 02-Getting-started.md).
 
-***This is a prototype.*** We are in process of testing and refining this concept design to increase robustness. The basic concept consists of two arms that gently close in sync to compress the bag. This must be coupled with a closed loop control system. Major mechanical design requirements included:
+**Este es un prototipo.** Estamos en proceso de probar y refinar este diseño conceptual para aumentar la robustez. El concepto básico consiste en dos brazos que se cierran suavemente sincronizados para comprimir la bolsa. Esto debe combinarse con un sistema de control de circuito cerrado. Los principales requisitos de diseño mecánico incluyen:
 
-- Be nice to your bag and its hoses! Up to 2x7x24X60x30 = 604,800 cycles.
-- Fail-Safe operation! If the machine fails, a clinician must be able to convert to manual bagging.
-- Keep It Simple & Make It Super! Enable others to fabricate.
-- Many drive motor possibilities! Enable multiple motors and configurations.
+- ¡Sé amable con tu bolso y sus mangueras! Hasta 2x7x24X60x30 = 604,800 ciclos.
+- ¡Operación a prueba de fallas! Si la máquina falla, un médico debe poder realizar la conversión a embolsado manual.
+- ¡Mantenlo simple y hazlo súper! Permitir que otros fabriquen.
+- ¡Muchas posibilidades de motor de accionamiento! Habilite múltiples motores y configuraciones.
 
-The [Units version 002](../../img/mit-e-vent-unit-002-setup.jpg) shown here were developed to maximize flexibility during testing, so that the bag and motor position could be adjusted. None of this adjustability is needed once a particular bag is selected.
+Las [Unidades versión 002](../../ img / mit-e-vent-unit-002-setup.jpg) que se muestran aquí se desarrollaron para maximizar la flexibilidad durante las pruebas, de modo que la posición de la bolsa y el motor pudieran ajustarse. Nada de esta capacidad de ajuste es necesaria una vez que se selecciona una bolsa en particular.
 
-The basic dimensions are now set and any skilled mechanical designer will be able to execute this design and adjust it to suit locally available materials and fabrication technologies. 
+Ahora se establecen las dimensiones básicas y cualquier diseñador mecánico experto podrá ejecutar este diseño y ajustarlo para adaptarse a los materiales disponibles localmente y las tecnologías de fabricación.
 
-We have ready access to waterjet and laser cutters and 80/20 components, however these parts can be CNC milled and bolted and welded to your specification
+Tenemos acceso inmediato a cortadores de chorro de agua y láser y componentes 80/20, sin embargo, estas piezas se pueden fresar, atornillar y soldar con CNC según sus especificaciones.
 
-## Documentation useful pictures
+## Documentación de imágenes útiles
 
-***Caution: Forces and torques are much higher than expected when an Ambu bag is connected to a human respiratory system pressures can range up to 40 cm H2O and, potentially, even higher depending on breath rate. There must be a pressure release valve set at 40 cm H2O; without this higher pressures will risk permeant injury or death. Diseased lungs can have compliance on the order of 10x lower than that of healthy patients and this further compounds the problem.***
+***Precaución: las fuerzas y los pares son mucho más altos de lo esperado cuando una bolsa Ambu está conectada a un sistema respiratorio humano, las presiones pueden variar hasta 40 cm H2O y, potencialmente, incluso más, dependiendo de la frecuencia respiratoria. Debe haber una válvula de liberación de presión establecida a 40 cm H2O; sin esto, las presiones más altas correrán el riesgo de lesiones permanentes o la muerte. Los pulmones enfermos pueden tener un cumplimiento del orden de 10 veces menor que el de los pacientes sanos y esto agrava aún más el problema.***
 
-![](../../img/gearstrain-for-actuating-arms.png)
-![](../../img/device-side-view.jpg)
-![](../../img/device-side-view-with-bag.jpg)
-![](../../img/device-001.jpg)
-![](../../img/design-bag-exposed.jpg)
+![Gear strain for actuating arms](../../img/gearstrain-for-actuating-arms.png)
+![device-003](../../img/device-side-view.jpg)
+![device-002](../../img/device-side-view-with-bag.jpg)
+![device-001](../../img/device-001.jpg)
+![Bag exposed design](../../img/design-bag-exposed.jpg)
 
 ![Plates to support the bag](../../img/bag-support-plates.jpg)
 
 ![Unit 002-most updated design](../../img/mit-e-vent-unit-002-setup.jpg)
 
+### Diseño temprano (Unidad 001)
 
-### Early design (Unit 001)
+Una unidad prototipo temprana se muestra a continuación en acrílico cortado con láser. La Unidad 001 fue similar y se sometió a pruebas. La unidad 002, fabricada con un marco de metal 80/20, para abordar la durabilidad y maximizar la flexibilidad durante las pruebas, se somete a pruebas hoy.
 
-An early prototype unit is show below in laser cut acrylic. Unit 001 was similar and underwent testing. Unit 002 been fabricated with an 80/20 metal frame, to address durability and maximise flexibility during testing, is undergoing testing today.
+La colección de imágenes de los primeros diseños se encuentra [en esta carpeta](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\img\early-design-001)
 
-The collection of pictures from early designs are found [in this folder](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\img\early-design-001)
+# Diseño electrico
 
-# Electrical Design
+Esta sección muestra una descripción del conjunto mínimo de hardware requerido para controlar el ventilador como se describe en la otra documentación.
 
-This section shows a description of the minimum hardware set required to control the ventilator as described in the other documentation.
+![Arquitectura del Sistema Electrico](../../img/Electrical-System-Architecture-2.jpg)
 
-![](../../img/Electrical-System-Architecture-2.jpg)
+## Motor y codificador
 
-## Motor & Encoder
+El sistema mecánico debe manejarse con un motor bajo control de circuito cerrado. Para la medición de retroalimentación, estamos utilizando un codificador de cuadratura en el motor y un potenciómetro (POT) en los brazos móviles para medir el ángulo absoluto.
 
-The mechanical system should be driven with a motor under closed loop control. For feedback measurement, we are using a quadrature encoder on the motor, and a potentiometer (POT) on the moving arms to measure the absolute angle.
+### Opciones de motor:
 
-### Motor Options: 
+Motor DC cepillado con caja de cambios y retroalimentación de posición. Debería funcionar cualquier motor de par motor suficientemente alto con detección de ángulo, integrado o separado. La potencia se estima en 36 W o más, con un factor de seguridad recomendado.
 
-Brushed DC motor with gearbox and position feedback. Any sufficiently high-torque, back-driveable motor with angle sensing, integrated or separated, should work. Power is estimated at 36 W or greater, with a safety factor recommended.
+**Precaución: si se utiliza un motor paso a paso, la posición aún debe tomarse del sensor de ángulo para que los pasos omitidos no provoquen un desplazamiento de la posición**
 
-***Caution: If a stepper motor is used, position should still be taken from the angle sensor so that missed steps do not cause position drift***
+**Precaución: el motor y el mecanismo, juntos, deben ser manejables hacia atrás para mover el mecanismo con la mano, quitar la bolsa e inmediatamente convertirla en una bolsa manual.**
 
-***Caution: The motor and mechanism, together, must be back drivable in order to move the mechanism by hand, remove the bag and immediately convert to manual bagging.***
+- Parámetros de funcionamiento nominales supuestos: Referencia a la documentación clínica: máximo 25 respiraciones por minuto (lpm) y hasta 1: 3 Inspiración: Relación de caducidad (relación I: E) (por ejemplo: bolsa apretada por 1 unidades de tiempo, bolsa relajada por 3 unidades de tiempo). Tenga en cuenta que los pacientes con COVID-19 pueden necesitar mayores proporciones I: E.
 
-- Assumed nominal operating parameters: Referencing clinical documentation: max 25 breath-per-minute (bpm), and up to a 1:3 Inspiration: Expiration Ratio (I:E ratio) (ex: bag squeezed for 1 time units, bag relaxed for 3 time units). Note that COVID-19 patients may need greater I:E ratios.
+- Componente del prototipo: [Andy Mark AM 2971 gearmotor](https://sites.google.com/site/frc5064/parts/motors-and-gearboxes/-pg71-planetary-gearbox-with-rs775-motor-and-encoder). 
 
-- Prototype component: [Andy Mark AM 2971 gearmotor](https://sites.google.com/site/frc5064/parts/motors-and-gearboxes/-pg71-planetary-gearbox-with-rs775-motor-and-encoder). 
+    ![Andy Mark AM 2971 gearmotor](../../img/gear-motor.png)
 
-    ![](../../img/gear-motor.png)
+  Esto fue eliminado de un kit FIRST Robotics, es adecuado para pruebas, **pero no ha sido probado para un uso seguro a largo plazo. Los constructores deberán buscar otro motor.**
 
-  This was scavenged from a FIRST Robotics kit, it is suitable for testing, **but has not been proved for safe longer-term use. Builders will need to source another motor.**
+Si bien la máquina debe ser capaz de operar continuamente a un volumen corriente máximo y a un máximo de bpm, en la práctica, los profesionales médicos a menudo no operan con un gran volumen de marea y altos bpm simultáneamente. En funcionamiento normal, las relaciones I: E alrededor de 1: 2 y 12 lpm son un punto de diseño central decente. El volumen corriente en función de la posición necesita ser calibrado.
 
-While the machine should be capable of operating continuously at max tidal volume and max bpm, in practice medical professionals often do not operate with large tidal volume and high bpm simultaneously. In normal operation, I:E ratios around 1:2 and 12 bpm are a decent central design point. Tidal volume as a function of position needs to be calibrated.
+**Precaución: en uso desplegado, el motor debe poder funcionar continuamente durante varios días, 100% de ciclo de trabajo. Esto puede requerir motores más grandes de lo esperado o mayor enfriamiento del motor para evitar el sobrecalentamiento.**
 
-***Caution: In deployed use, the motor must be able to operate continuously for several days, 100% duty cycle. This may require larger motors than expected or increased motor cooling to prevent overheating.***
+## Fuente de alimentación
 
-## Power Supply
+Nominalmente, se espera que funcione una fuente de alimentación que pueda suministrar 12 V y 5 A. La desaceleración rápida del motor provoca picos de tensión de alimentación y debe evitarse mediante el diseño correcto del perfil de movimiento del motor. Se deben agregar condensadores a través de los cables de alimentación del puente H para una protección adicional.
 
-Nominally, a power supply that can deliver 12 V and 5 A is expected to work. Rapid deceleration of the motor causes supply-voltage spikes and must be avoided via correct motor motion profile design. Capacitors should be added across the H-Bridge power leads for extra protection. 
+Una fuente de alimentación alternativa sería utilizar una batería de automóvil con un cargador de batería de automóvil de 5 A conectado. Esto permitirá consumos de energía instantánea muy altos y absorción de picos de voltaje. La batería se duplicará como respaldo de ~ 2-3 horas en caso de pérdida de energía del edificio.
 
-An alternate power supply would be to use a car battery with a 5 A car battery charger connected. This will allow for very high instantaneous power draws and voltage spike absorption. The battery will double as a ~2-3 hour backup in case of building power loss.
+## Controlador
 
-## Controller
-
-Microcontroller for timing, measuring, and actuating: [Arduino Uno](https://www.arduino.cc/en/Guide/ArduinoUno) – readily available and easy to program, with extensive online support and documentation. It provides 6 A/D pins (for potentiometers and pressure sensors) and 13 digital I/O pins, including dedicated hardware interrupts (for encoders) and PWM pins for H-bridge driving. Other industry validated controllers can be used, and we may implement them in the future.
-    ![](../../img/arduino-uno.png)
+Microcontrolador para temporización, medición y actuación: [Arduino Uno] (https://www.arduino.cc/en/Guide/ArduinoUno): fácilmente disponible y fácil de programar, con un amplio soporte y documentación en línea. Proporciona 6 pines A / D (para potenciómetros y sensores de presión) y 13 pines digitales de E / S, incluidas interrupciones de hardware dedicadas (para codificadores) y pines PWM para la conducción de puentes H. Se pueden usar otros controladores validados por la industria, y podemos implementarlos en el futuro.
+    ![Arduino Uno](../../img/arduino-uno.png)
 
 ## Motor Driver
 
-Use any motor driver with sufficient voltage and current ratings to meet the motor power specifications. Closed loop servo controllers can also be employed. Our control strategy is PWM with a H Bridge. For fastest implementation using cheap, off-the-shelf parts, we recommend an Arduino compatible motor shield.
+Use cualquier controlador de motor con voltaje y corriente suficientes para cumplir con las especificaciones de potencia del motor. Los servocontroladores de circuito cerrado también se pueden emplear. Nuestra estrategia de control es PWM con un puente H. Para una implementación más rápida utilizando piezas baratas y listas para usar, recomendamos un protector de motor compatible con Arduino.
 
-For reference, we are using a [RoboClaw Solo motor controller](https://www.pololu.com/product/3290) to control a brushed DC gear motor. The RoboClaw firmware uses a velocity PID controller and a position PID controller to command the motor to a desired position at a desired velocity. The PID values must be tuned in advance. Other motor controllers with similar functions will work, we do not recommend any specific controller.
+Como referencia, estamos utilizando un [controlador de motor RoboClaw Solo] (https://www.pololu.com/product/3290) para controlar un motor de engranaje de CC cepillado. El firmware RoboClaw utiliza un controlador PID de velocidad y un controlador PID de posición para ordenar al motor a una posición deseada a la velocidad deseada. Los valores PID deben ajustarse de antemano. Otros controladores de motor con funciones similares funcionarán, no recomendamos ningún controlador específico.
 
-  ![](../../img/roboclaw-motor-controller.png)
+  ![RoboClaw Solo motor controller](../../img/roboclaw-motor-controller.png)
 
-## Inputs
+## Entradas
 
-Control knob potentiometers (POTs) should all be single turn, 10 KΩ. Single turn is to allow for specific settings to be marked on the face plate.
+Los potenciómetros de la perilla de control (POT) deben ser todos de un solo giro, 10 K $\Omega$. Un solo giro es permitir que ajustes específicos se marquen en la placa frontal.
 
-Pressure sensor – Receives a voltage proportional to the pressure in the patient’s lungs. Used to determine max pressure reached during inspiration, and to trigger when the patient is attempting to breathe in during assist mode. Pressure sensor selected should be differential (to sense negative pressures) with a range of up to 100 cm H2O. This is a 2x safety factor. Our sensors are sourced from Honeywell.
+Sensor de presión: recibe un voltaje proporcional a la presión en los pulmones del paciente. Se utiliza para determinar la presión máxima alcanzada durante la inspiración y para disparar cuando el paciente intenta respirar durante el modo de asistencia. El sensor de presión seleccionado debe ser diferencial (para detectar presiones negativas) con un rango de hasta 100 cm H $_2$ O. Este es un factor de seguridad 2x. Nuestros sensores provienen de Honeywell.
 
-***Note on Plumbing: The pressure sensor must be connected to the Ambu bag’s sensing port or somewhere in the airflow, as close as possible to the patient, past any valves.***
+**Nota sobre fontanería: el sensor de presión debe estar conectado al puerto de detección de la bolsa Ambu o en algún lugar del flujo de aire, lo más cerca posible del paciente, más allá de cualquier válvula.**
 
-**POT 1** – Varies inspired volume, sets angular oscillation of the arms. During operation, each arm varies by a maximum of approximately 20°, corresponding to fully squeezing a large bag. This dial varies position from 0% (fully open) to 100% (fully compressed).
+**POT 1** - Varía el volumen inspirado, establece la oscilación angular de los brazos. Durante la operación, cada brazo varía en un máximo de aproximadamente 20 grados, lo que corresponde a apretar completamente una bolsa grande. Este dial varía la posición del 0% (completamente abierto) al 100% (completamente comprimido).
 
-**POT 2 **– Varies the BPM. This sets the rate from 0 to the maximum BPM given in the clinical document.
+**POT 2** - Varía el BPM. Esto establece la tasa de 0 a la BPM máxima dada en el documento clínico.
 
-**POT 3** – Varies the I:E ratio. Range as given in the clinical document.
+**POT 3** - Varía la relación I: E. Rango según lo indicado en el documento clínico.
 
-Note: It is not essential that this be settable, one value greater than 1:1 can be selected and the POT repurposed as a threshold for over pressure. (Multiple clinicians have indicated that varying I:E is not critical.)
+Nota: No es esencial que esto sea configurable, se puede seleccionar un valor mayor que 1: 1 y el POT se puede reutilizar como un umbral para la sobrepresión. (Varios médicos han indicado que variar I: E no es crítico).
 
-**POT 4 **– Sets the pressure threshold for detecting assist control. This varies as described in the clinical document.
+**POT 4** - Establece el umbral de presión para detectar el control de asistencia. Esto varía según lo descrito en el documento clínico.
 
-Pushbutton Switch – Confirms user selection of new POT setting. This is an important safety.
+Interruptor de botón pulsador: confirma la selección del usuario de la nueva configuración POT. Esta es una seguridad importante.
 
-Switch – Power on / off
+Interruptor - Encendido / apagado
 
-E-stop – Instantly deactivates the system.
+E-stop: desactiva el sistema al instante.
 
-Switch – Mode selection from volume to assist control.
+Interruptor: selección de modo del volumen para ayudar al control.
 
-Limit Switch – Used for homing the arms positions.
+Interruptor de límite: se utiliza para dirigir las posiciones de los brazos.
 
-## Output
+## Salida
 
-LCD screen displays airway pressure in cm H2O. Other functions can be incorporated later. We are using a 20×4 character LCD display as this will display the minimum information, described in under interface. Any display better than this will be sufficient.
+La pantalla LCD muestra la presión de la vía aérea en cm H2O. Otras funciones se pueden incorporar más adelante. Estamos utilizando una pantalla LCD de 20 × 4 caracteres, ya que esto mostrará la información mínima, descrita en la interfaz. Cualquier pantalla mejor que esto será suficiente.
 
-Audible alert buzzer will identify multiple fault conditions.
+El zumbador de alerta audible identificará múltiples condiciones de falla.

@@ -1,5 +1,5 @@
 ---
-title: "MIT Emergency Ventilator (E-Vent) Project"
+title: "Proyecto ventilador de emergencia del MIT (E-Vent)"
 output: pdf_document
 documentclass: article
 classoption: onecolumn
@@ -25,31 +25,32 @@ crossref: true
 colorlinks: true
 ---
 
-# Key Ventilation Specifications
+# Especificaciones clave de ventilación
 
 
-From the Clinical Guidance this document summarizes the minimum set of requirements for ventilation:
+De la Guía clínica, este documento resume el conjunto mínimo de requisitos para la ventilación:
 
-1. Patients must be under the management of a trained clinician.
-2. The minimum controllable parameters in order to ventilate a patient include:
-    - BPM (breaths per minute): between 8 – 30 BPM
-    - Tidal Volume (air volume pushed into lung): between 200 – 800 mL based on patient weight
-    - I/E Ratio (inspiratory/expiration time ratio): recommended to start around 1:2; best if adjustable between range of 1:1 – 1:4[^1]
+1. Los pacientes deben estar bajo la dirección de un clínico capacitado.
+2. Los parámetros mínimos controlables para ventilar a un paciente incluyen:
+ - BPM (respiraciones por minuto): entre 8 - 30 BPM
+- Volumen corriente (volumen de aire empujado hacia el pulmón): entre 200 - 800 ml según el peso del paciente
+- Relación I / E (relación inspiratoria / tiempo de expiración): se recomienda comenzar alrededor de 1: 2; mejor si ajustable entre rango de 1:1 - 1:4[^1]
 
-    [^1]: Range determined based on several COVID-19 patients’ ventilator settings reported from Boston area ICUs
-    
-    - Assist Detection pressure. When a patient tries to inspire, they can cause a dip on teh order of 1 – 5 cm H2O, with respect to PEEP pressure (not necessarily = atmospheric).
+[^1]: Rango determinado en base a la configuración del ventilador de varios pacientes COVID-19 informados desde las UCI del área de Boston
 
-3. Airway pressure must be monitored
-      - Maximum pressure should be limited to 40 cm H2O at any time; Plateau pressure should be limited to max 30 cm H2O
-      - The use of a passive mechanical blow-off valve fixed at 40 cm H2O is strongly recommended
-      - Clinician require readings of plateau pressure and PEEP (refer to clinical documentation tab)
-      - PEEP of 5-15 cm H2O required; many patients need 10-15 cmH$_2$O
+ - Ayuda a la detección de presión. Cuando un paciente intenta inspirar, puede provocar una caída en el orden de 1 a 5 cm de H2O, con respecto a la presión de PEEP (no necesariamente = atmosférica).
 
-4. Failure conditions must permit conversion to manual clinician override, i.e. if automatic ventilation fails, the conversion to immediate ventilation must be immediate.
-5. Ventilation on room air is better than no ventilation at all. Blending of oxygen and air gas mixture to adjust FiO2 is not important in an emergency scenario.  It is certainly nice to have that ability and can easily be implemented with a oxygen / air gas blender that some hospitals already have.
-6. Covid-19 can get aerosolized (airborne), so HEPA filtration on the patient’s exhalation is required or between the ventilator unit and the patient (at the end of the endotracheal tube) to protect clinical staff from certain infection. In-line HEPA filters can usually be purchased alongside manual resuscitator bags.
-7. Heat and moisture exchanger should be used in line with the breathing circuit.
-8. Failure conditions must result in an alarm.
+3. La presión de la vía aérea debe ser monitoreada
 
-*This is a minimal requirement set for emergency use. Equipment designed for more regular use, even if for emerging markets, will require additional features to be used on a regular basis. *
+- La presión máxima debe limitarse a 40 cm H2O en cualquier momento; La presión de la meseta debe limitarse a un máximo de 30 cm H2O
+- Se recomienda encarecidamente el uso de una válvula de descarga mecánica pasiva fijada a 40 cm H2O
+- El clínico requiere lecturas de presión de meseta y PEEP (consulte la pestaña de documentación clínica)
+- Se requiere PEEP de 5-15 cm H2O; muchos pacientes necesitan 10-15 cmH $ _2 $ O
+
+4. Las condiciones de falla deben permitir la conversión a anulación manual del médico, es decir, si la ventilación automática falla, la conversión a ventilación inmediata debe ser inmediata.
+5. La ventilación en el aire de la habitación es mejor que no tener ventilación. La mezcla de oxígeno y aire y gas para ajustar FiO2 no es importante en un escenario de emergencia. Ciertamente es bueno tener esa capacidad y puede implementarse fácilmente con un mezclador de oxígeno / aire que ya tienen algunos hospitales.
+6. Covid-19 puede aerosolizarse (en el aire), por lo que se requiere filtración HEPA en la exhalación del paciente o entre la unidad de ventilación y el paciente (al final del tubo endotraqueal) para proteger al personal clínico de ciertas infecciones. Los filtros HEPA en línea generalmente se pueden comprar junto con bolsas de reanimación manuales.
+7. El intercambiador de calor y humedad debe usarse en línea con el circuito de respiración.
+8. Las condiciones de falla deben generar una alarma.
+
+*Este es un requisito mínimo establecido para uso de emergencia. Los equipos diseñados para un uso más regular, incluso para mercados emergentes, requerirán características adicionales para su uso regular.*
