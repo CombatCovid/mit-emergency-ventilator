@@ -55,7 +55,7 @@ Further, any low-cost ventilator system must take great care regarding providing
 
 ![MIT E-vent Unit 002 setup](../../img/mit-e-vent-unit-002-setup.jpg)
 
-![Mannequin controller Board 00 Setup](../../img/MIT_E_Vent_Mannequin_ControllerBoard.jpg)
+
 
 ## Open Source Design
 At the present time, we are producing four sets of material, which we will be releasing and updating on this site in an open-source fashion:

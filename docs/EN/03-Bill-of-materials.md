@@ -35,7 +35,7 @@ colorlinks: true
 
 ## Files to download
 
-Follow this [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src\MITeVentDXFs\DXFs-For-Website) where there are all the .dxf files .
+Follow this [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src\MITeVentDXFs\DXFs-For-Website) where there are all the .dxf files.
 
 
 **This section documents the mechanical design of the MIT E-Vent.**
@@ -61,11 +61,11 @@ We have ready access to waterjet and laser cutters and 80/20 components, however
 
 ***Caution: Forces and torques are much higher than expected when an Ambu bag is connected to a human respiratory system pressures can range up to 40 cm H2O and, potentially, even higher depending on breath rate. There must be a pressure release valve set at 40 cm H2O; without this higher pressures will risk permeant injury or death. Diseased lungs can have compliance on the order of 10x lower than that of healthy patients and this further compounds the problem.***
 
-![](../../img/gearstrain-for-actuating-arms.png)
-![](../../img/device-side-view.jpg)
-![](../../img/device-side-view-with-bag.jpg)
-![](../../img/device-001.jpg)
-![](../../img/design-bag-exposed.jpg)
+![Gear strain for actuating arms](../../img/gearstrain-for-actuating-arms.png)
+![device-003](../../img/device-side-view.jpg)
+![device-002](../../img/device-side-view-with-bag.jpg)
+![device-001](../../img/device-001.jpg)
+![Bag exposed design](../../img/design-bag-exposed.jpg)
 
 ![Plates to support the bag](../../img/bag-support-plates.jpg)
 
@@ -82,7 +82,7 @@ The collection of pictures from early designs are found [in this folder](C:\User
 
 This section shows a description of the minimum hardware set required to control the ventilator as described in the other documentation.
 
-![](../../img/Electrical-System-Architecture-2.jpg)
+![Electrical System Architecture](../../img/Electrical-System-Architecture-2.jpg)
 
 ## Motor & Encoder
 
@@ -100,7 +100,7 @@ Brushed DC motor with gearbox and position feedback. Any sufficiently high-torqu
 
 - Prototype component: [Andy Mark AM 2971 gearmotor](https://sites.google.com/site/frc5064/parts/motors-and-gearboxes/-pg71-planetary-gearbox-with-rs775-motor-and-encoder). 
 
-    ![](../../img/gear-motor.png)
+    ![Andy Mark AM 2971 gearmotor](../../img/gear-motor.png)
 
   This was scavenged from a FIRST Robotics kit, it is suitable for testing, **but has not been proved for safe longer-term use. Builders will need to source another motor.**
 
@@ -117,7 +117,7 @@ An alternate power supply would be to use a car battery with a 5 A car battery c
 ## Controller
 
 Microcontroller for timing, measuring, and actuating: [Arduino Uno](https://www.arduino.cc/en/Guide/ArduinoUno) – readily available and easy to program, with extensive online support and documentation. It provides 6 A/D pins (for potentiometers and pressure sensors) and 13 digital I/O pins, including dedicated hardware interrupts (for encoders) and PWM pins for H-bridge driving. Other industry validated controllers can be used, and we may implement them in the future.
-    ![](../../img/arduino-uno.png)
+    ![Arduino Uno](../../img/arduino-uno.png)
 
 ## Motor Driver
 
@@ -125,17 +125,17 @@ Use any motor driver with sufficient voltage and current ratings to meet the mot
 
 For reference, we are using a [RoboClaw Solo motor controller](https://www.pololu.com/product/3290) to control a brushed DC gear motor. The RoboClaw firmware uses a velocity PID controller and a position PID controller to command the motor to a desired position at a desired velocity. The PID values must be tuned in advance. Other motor controllers with similar functions will work, we do not recommend any specific controller.
 
-  ![](../../img/roboclaw-motor-controller.png)
+  ![RoboClaw Solo motor controller](../../img/roboclaw-motor-controller.png)
 
 ## Inputs
 
-Control knob potentiometers (POTs) should all be single turn, 10 KΩ. Single turn is to allow for specific settings to be marked on the face plate.
+Control knob potentiometers (POTs) should all be single turn, 10 K$\Omega$. Single turn is to allow for specific settings to be marked on the face plate.
 
-Pressure sensor – Receives a voltage proportional to the pressure in the patient’s lungs. Used to determine max pressure reached during inspiration, and to trigger when the patient is attempting to breathe in during assist mode. Pressure sensor selected should be differential (to sense negative pressures) with a range of up to 100 cm H2O. This is a 2x safety factor. Our sensors are sourced from Honeywell.
+Pressure sensor – Receives a voltage proportional to the pressure in the patient’s lungs. Used to determine max pressure reached during inspiration, and to trigger when the patient is attempting to breathe in during assist mode. Pressure sensor selected should be differential (to sense negative pressures) with a range of up to 100 cm H$_2$O. This is a 2x safety factor. Our sensors are sourced from Honeywell.
 
 ***Note on Plumbing: The pressure sensor must be connected to the Ambu bag’s sensing port or somewhere in the airflow, as close as possible to the patient, past any valves.***
 
-**POT 1** – Varies inspired volume, sets angular oscillation of the arms. During operation, each arm varies by a maximum of approximately 20°, corresponding to fully squeezing a large bag. This dial varies position from 0% (fully open) to 100% (fully compressed).
+**POT 1** – Varies inspired volume, sets angular oscillation of the arms. During operation, each arm varies by a maximum of approximately 20 grades, corresponding to fully squeezing a large bag. This dial varies position from 0% (fully open) to 100% (fully compressed).
 
 **POT 2 **– Varies the BPM. This sets the rate from 0 to the maximum BPM given in the clinical document.
 
@@ -143,7 +143,7 @@ Pressure sensor – Receives a voltage proportional to the pressure in the patie
 
 Note: It is not essential that this be settable, one value greater than 1:1 can be selected and the POT repurposed as a threshold for over pressure. (Multiple clinicians have indicated that varying I:E is not critical.)
 
-**POT 4 **– Sets the pressure threshold for detecting assist control. This varies as described in the clinical document.
+**POT 4**– Sets the pressure threshold for detecting assist control. This varies as described in the clinical document.
 
 Pushbutton Switch – Confirms user selection of new POT setting. This is an important safety.
 

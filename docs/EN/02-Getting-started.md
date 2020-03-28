@@ -52,4 +52,4 @@ From the Clinical Guidance this document summarizes the minimum set of requireme
 7. Heat and moisture exchanger should be used in line with the breathing circuit.
 8. Failure conditions must result in an alarm.
 
-*This is a minimal requirement set for emergency use. Equipment designed for more regular use, even if for emerging markets, will require additional features to be used on a regular basis. *
+*This is a minimal requirement set for emergency use. Equipment designed for more regular use, even if for emerging markets, will require additional features to be used on a regular basis.*
