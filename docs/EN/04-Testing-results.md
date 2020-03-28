@@ -42,7 +42,10 @@ Porcine study Nr 1 was conducted at a leading research facility in the Boston ar
 - We investigated potential control strategies and identified key UI/UX requirements as well as human factors.
 - We determined key pressures when connected to a real lung and with PEEP set.
 
-![](../../img/testing-result-20032020-01.jpg)![](../../img/testing-result-20032020-02.jpg)![](../../img/testing-result-20032020-03.jpg)![](../../img/testing-result-20032020-04.jpg)
+![](../../img/testing-result-20032020-01.jpg)
+![](../../img/testing-result-20032020-02.jpg)
+![](../../img/testing-result-20032020-03.jpg)
+![](../../img/testing-result-20032020-04.jpg)
 
 ### Next Steps
 
