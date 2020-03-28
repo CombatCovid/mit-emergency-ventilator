@@ -35,7 +35,7 @@ colorlinks: true
 
 ## Files to download
 
-Follow this [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src\MITeVentDXFs\DXFs-For-Website) where there are all the .dxf files.
+Follow this [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src) where there are all the .dxf files.
 
 
 **This section documents the mechanical design of the MIT E-Vent.**
