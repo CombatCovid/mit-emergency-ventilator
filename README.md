@@ -3,6 +3,7 @@ title: MIT Emergency Ventilator (E-Vent) Project
 description: "A ventilator is a machine that provides mechanical ventilation by moving
   breathable air into and out of the lungs, to deliver breaths to a patient who
   is physically unable to breathe, or breathing insufficiently. "
+  
 summaryText: /Readme.md
 summaryImage: /summary.jpg
 keywords:
@@ -19,6 +20,8 @@ keywords:
   - hospital
   - operating room
 project-link: https://e-vent.mit.edu/
+intend-use: >-
+    tbd
 made: true
 made-independently: false
 license:
