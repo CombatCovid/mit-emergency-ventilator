@@ -37,7 +37,7 @@ Porcine study Nr 1 was conducted at a leading research facility in the Boston ar
 
 ### Key Learnings (more results will be forthcoming)
 
-- We identifies deficiencies in the all-laser cut design. We have already transitioned to a metal frame design.
+- We identified deficiencies in the all-laser cut design. We have already transitioned to a metal frame design.
 - We more accurately defined key parameters related to power requirements for a drive system.
 - We investigated potential control strategies and identified key UI/UX requirements as well as human factors.
 - We determined key pressures when connected to a real lung and with PEEP set.
