@@ -35,7 +35,7 @@ colorlinks: true
 
 ## Ficheros para descargar
 
-Sigue este [link](C../../src) donde estan todos los .dxf ficheros.
+Sigue este [link](../../src) donde estan todos los .dxf ficheros.
 
 
 **Esta sección documenta el diseño mecánico del MIT E-Vent.**
