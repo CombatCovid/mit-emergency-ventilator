@@ -59,7 +59,7 @@ Any solution should be utilized only in a healthcare setting with direct monitor
 
 Further, any low-cost ventilator system must take great care regarding providing clinicians with the ability to closely control and monitor tidal volume, inspiratory pressure, bpm, and I/E ratio, and be able to provide additional support in the form of PEEP, PIP monitoring, filtration, and adaptation to individual patient parameters. We recognize, and would like to highlight for anyone seeking to manufacture a low-cost emergency ventilator, that failing to properly consider these factors can result in serious long-term injury or death.
 
-![MIT E-vent Unit 002 setup](../../img/mit-e-vent-unit-002-setup.jpg)
+![MIT E-vent Unit 002 setup](../img/mit-e-vent-unit-002-setup.jpg)
 
 
 

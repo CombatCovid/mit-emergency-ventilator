@@ -35,7 +35,7 @@ colorlinks: true
 
 ## Ficheros para descargar
 
-Sigue este [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\src) donde estan todos los .dxf ficheros.
+Sigue este [link](C../../src) donde estan todos los .dxf ficheros.
 
 
 **Esta sección documenta el diseño mecánico del MIT E-Vent.**
@@ -51,7 +51,7 @@ Sigue este [link](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-venti
 - ¡Mantenlo simple y hazlo súper! Permitir que otros fabriquen.
 - ¡Muchas posibilidades de motor de accionamiento! Habilite múltiples motores y configuraciones.
 
-Las [Unidades versión 002](../../ img / mit-e-vent-unit-002-setup.jpg) que se muestran aquí se desarrollaron para maximizar la flexibilidad durante las pruebas, de modo que la posición de la bolsa y el motor pudieran ajustarse. Nada de esta capacidad de ajuste es necesaria una vez que se selecciona una bolsa en particular.
+Las [Unidades versión 002](../img / mit-e-vent-unit-002-setup.jpg) que se muestran aquí se desarrollaron para maximizar la flexibilidad durante las pruebas, de modo que la posición de la bolsa y el motor pudieran ajustarse. Nada de esta capacidad de ajuste es necesaria una vez que se selecciona una bolsa en particular.
 
 Ahora se establecen las dimensiones básicas y cualquier diseñador mecánico experto podrá ejecutar este diseño y ajustarlo para adaptarse a los materiales disponibles localmente y las tecnologías de fabricación.
 
@@ -61,27 +61,27 @@ Tenemos acceso inmediato a cortadores de chorro de agua y láser y componentes 8
 
 ***Precaución: las fuerzas y los pares son mucho más altos de lo esperado cuando una bolsa Ambu está conectada a un sistema respiratorio humano, las presiones pueden variar hasta 40 cm H2O y, potencialmente, incluso más, dependiendo de la frecuencia respiratoria. Debe haber una válvula de liberación de presión establecida a 40 cm H2O; sin esto, las presiones más altas correrán el riesgo de lesiones permanentes o la muerte. Los pulmones enfermos pueden tener un cumplimiento del orden de 10 veces menor que el de los pacientes sanos y esto agrava aún más el problema.***
 
-![Gear strain for actuating arms](../../img/gearstrain-for-actuating-arms.png)
-![device-003](../../img/device-side-view.jpg)
-![device-002](../../img/device-side-view-with-bag.jpg)
-![device-001](../../img/device-001.jpg)
-![Bag exposed design](../../img/design-bag-exposed.jpg)
+![Gear strain for actuating arms](../img/gearstrain-for-actuating-arms.png)
+![device-003](../img/device-side-view.jpg)
+![device-002](../img/device-side-view-with-bag.jpg)
+![device-001](../img/device-001.jpg)
+![Bag exposed design](../img/design-bag-exposed.jpg)
 
-![Plates to support the bag](../../img/bag-support-plates.jpg)
+![Plates to support the bag](../img/bag-support-plates.jpg)
 
-![Unit 002-most updated design](../../img/mit-e-vent-unit-002-setup.jpg)
+![Unit 002-most updated design](../img/mit-e-vent-unit-002-setup.jpg)
 
 ### Diseño temprano (Unidad 001)
 
 Una unidad prototipo temprana se muestra a continuación en acrílico cortado con láser. La Unidad 001 fue similar y se sometió a pruebas. La unidad 002, fabricada con un marco de metal 80/20, para abordar la durabilidad y maximizar la flexibilidad durante las pruebas, se somete a pruebas hoy.
 
-La colección de imágenes de los primeros diseños se encuentra [en esta carpeta](C:\Users\linigodelacruz\Documents\CoViD-19\mit-emergency-ventilator\img\early-design-001)
+La colección de imágenes de los primeros diseños se encuentra [en esta carpeta](../img)
 
 # Diseño electrico
 
 Esta sección muestra una descripción del conjunto mínimo de hardware requerido para controlar el ventilador como se describe en la otra documentación.
 
-![Arquitectura del Sistema Electrico](../../img/Electrical-System-Architecture-2.jpg)
+![Arquitectura del Sistema Electrico](../img/Electrical-System-Architecture-2.jpg)
 
 ## Motor y codificador
 
@@ -99,7 +99,7 @@ Motor DC cepillado con caja de cambios y retroalimentación de posición. Deber�
 
 - Componente del prototipo: [Andy Mark AM 2971 gearmotor](https://sites.google.com/site/frc5064/parts/motors-and-gearboxes/-pg71-planetary-gearbox-with-rs775-motor-and-encoder). 
 
-    ![Andy Mark AM 2971 gearmotor](../../img/gear-motor.png)
+    ![Andy Mark AM 2971 gearmotor](../img/gear-motor.png)
 
   Esto fue eliminado de un kit FIRST Robotics, es adecuado para pruebas, **pero no ha sido probado para un uso seguro a largo plazo. Los constructores deberán buscar otro motor.**
 
@@ -116,7 +116,7 @@ Una fuente de alimentación alternativa sería utilizar una batería de automóv
 ## Controlador
 
 Microcontrolador para temporización, medición y actuación: [Arduino Uno] (https://www.arduino.cc/en/Guide/ArduinoUno): fácilmente disponible y fácil de programar, con un amplio soporte y documentación en línea. Proporciona 6 pines A / D (para potenciómetros y sensores de presión) y 13 pines digitales de E / S, incluidas interrupciones de hardware dedicadas (para codificadores) y pines PWM para la conducción de puentes H. Se pueden usar otros controladores validados por la industria, y podemos implementarlos en el futuro.
-    ![Arduino Uno](../../img/arduino-uno.png)
+    ![Arduino Uno](../img/arduino-uno.png)
 
 ## Motor Driver
 
@@ -124,7 +124,7 @@ Use cualquier controlador de motor con voltaje y corriente suficientes para cump
 
 Como referencia, estamos utilizando un [controlador de motor RoboClaw Solo] (https://www.pololu.com/product/3290) para controlar un motor de engranaje de CC cepillado. El firmware RoboClaw utiliza un controlador PID de velocidad y un controlador PID de posición para ordenar al motor a una posición deseada a la velocidad deseada. Los valores PID deben ajustarse de antemano. Otros controladores de motor con funciones similares funcionarán, no recomendamos ningún controlador específico.
 
-  ![RoboClaw Solo motor controller](../../img/roboclaw-motor-controller.png)
+  ![RoboClaw Solo motor controller](../img/roboclaw-motor-controller.png)
 
 ## Entradas
 
