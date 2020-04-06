@@ -60,7 +60,7 @@ Cualquier solución debe utilizarse solo en un entorno de atención médica con 
 
 Además, cualquier sistema de ventilación de bajo costo debe tener mucho cuidado con respecto a proporcionar a los médicos la capacidad de controlar y monitorear de cerca el volumen corriente, la presión inspiratoria, las ppm y la relación I / E, y poder brindar apoyo adicional en forma de PEEP, Monitoreo PIP, filtración y adaptación a parámetros individuales del paciente. Reconocemos, y nos gustaría resaltar para cualquiera que busque fabricar un ventilador de emergencia de bajo costo, que no considerar adecuadamente estos factores puede provocar lesiones graves o la muerte a largo plazo.
 
-![MIT E-vent Unit 002 setup](../../img/mit-e-vent-unit-002-setup.jpg)
+![MIT E-vent Unit 002 setup](../img/mit-e-vent-unit-002-setup.jpg)
 
 
 
