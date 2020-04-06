@@ -51,7 +51,7 @@ Sigue este [link](../../src) donde estan todos los .dxf ficheros.
 - ¡Mantenlo simple y hazlo súper! Permitir que otros fabriquen.
 - ¡Muchas posibilidades de motor de accionamiento! Habilite múltiples motores y configuraciones.
 
-Las [Unidades versión 002](../img / mit-e-vent-unit-002-setup.jpg) que se muestran aquí se desarrollaron para maximizar la flexibilidad durante las pruebas, de modo que la posición de la bolsa y el motor pudieran ajustarse. Nada de esta capacidad de ajuste es necesaria una vez que se selecciona una bolsa en particular.
+Las [Unidades versión 002](../img/mit-e-vent-unit-002-setup.jpg) que se muestran aquí se desarrollaron para maximizar la flexibilidad durante las pruebas, de modo que la posición de la bolsa y el motor pudieran ajustarse. Nada de esta capacidad de ajuste es necesaria una vez que se selecciona una bolsa en particular.
 
 Ahora se establecen las dimensiones básicas y cualquier diseñador mecánico experto podrá ejecutar este diseño y ajustarlo para adaptarse a los materiales disponibles localmente y las tecnologías de fabricación.
 
