@@ -1,29 +1,43 @@
 ---
-title: "MIT Emergency Ventilator (E-Vent) Project"
-output: pdf_document
-documentclass: article
-classoption: onecolumn
-pdf_document:
-latex_engine: pdflatex
-toc: true
-lof: true
-numberSections: true
-highlight: tango
-sectionsDepth: 3
-chapters: True
-figPrefix:
-  - "Fig."
-  - "Figs."
-secPrefix:
-  - "Section"
-  - "Sections"
-fontsize: 12pt
-geometry: margin=0.5in
-autoEqnLabels: true
-cref: true
-crossref: true
-colorlinks: true
+title: MIT Emergency Ventilator (E-Vent) Project
+description: "A ventilator is a machine that provides mechanical ventilation by moving
+  breathable air into and out of the lungs, to deliver breaths to a patient who
+  is physically unable to breathe, or breathing insufficiently. "
+  
+summaryText: /Readme.md
+summaryImage: /summary.jpg
+keywords:
+  - covid-19
+  - medical equipment
+  - patient 
+  - recovery 
+  - critical 
+  - intensive care 
+  - equipment 
+  - emergency 
+  - emt 
+  - treatment 
+  - hospital
+  - operating room
+project-link: https://e-vent.mit.edu/
+intend-use: >-
+    tbd
+made: true
+made-independently: false
+license:
+  hardware: undefined
+okh-manifest-version: 1.0.0
+date-updated: 2020-03-31
+manifest-author:
+  name: MiT people
+  affiliation: MIT
+contributors:
+  - undefined
+sub-parts:
+  - undefined
+  - undefined
 ---
+
 
 # Title: MIT Emergency Ventilator (E-Vent) Project
 
@@ -59,7 +73,7 @@ Any solution should be utilized only in a healthcare setting with direct monitor
 
 Further, any low-cost ventilator system must take great care regarding providing clinicians with the ability to closely control and monitor tidal volume, inspiratory pressure, bpm, and I/E ratio, and be able to provide additional support in the form of PEEP, PIP monitoring, filtration, and adaptation to individual patient parameters. We recognize, and would like to highlight for anyone seeking to manufacture a low-cost emergency ventilator, that failing to properly consider these factors can result in serious long-term injury or death.
 
-![MIT E-vent Unit 002 setup](../img/mit-e-vent-unit-002-setup.jpg)
+![MIT E-vent Unit 002 setup](docs/img/mit-e-vent-unit-002-setup.jpg)
 
 
 
@@ -76,9 +90,3 @@ We are releasing this material with the intent to provide those with the ability
 As with any research to design to scale-up to manufacture, we anticipated that there will be many problems and it is our goal to provide this site as a tool to “close the loop” and receive feedback. We will also do our best to publish the most relevant pieces of information in the discussion forum for all to see.
 
 We invite anyone who is interested to follow this work.
-
-
-
-
-
-

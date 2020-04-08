@@ -42,10 +42,10 @@ El estudio porcino número 1 se realizó en una instalación de investigación l
 - Investigamos posibles estrategias de control e identificamos requisitos clave de UI / UX, así como factores humanos.
 - Determinamos las presiones clave cuando se conecta a un pulmón real y con un conjunto de PEEP.
 
-![](../../img/testing-result-20032020-01.jpg)
-![](../../img/testing-result-20032020-02.jpg)
-![](../../img/testing-result-20032020-03.jpg)
-![](../../img/testing-result-20032020-04.jpg)
+![](../img/testing-result-20032020-01.jpg)
+![](../img/testing-result-20032020-02.jpg)
+![](../img/testing-result-20032020-03.jpg)
+![](../img/testing-result-20032020-04.jpg)
 
 ### Próximos pasos
 
