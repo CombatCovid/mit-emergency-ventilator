@@ -3,8 +3,11 @@
 # the essential repo updates system to come. 
 # *todo* ground rules for yaml lines of this file, to be written 
 
-title: MIT Emergency Ventilator
-# these names are fixed labels as must be used on repo by GitHub API for our access
+# note carefully that this is the title that will show 
+# in the Finder-Viewer app, and so _must_ be short enough to fit
+# the longTitle below lets such be in meta; no place to use it at present
+shortTitle: MIT Emergency Ventilator (E-Vent)
+# these names are fixed labels as must be used on repo by GitHub API, for our access
 name: mit-emergency-ventilator
 nameWithOwner: CombatCovid/mit-emergency-ventilator
 
