@@ -1,6 +1,6 @@
 ---
-# basis test for remote pickup of metadata by both client app and
-# the essential repo updates system to come.
+# basis initial format for remote pickup of metadata by both client app and
+# the essential repo updates system, about to appear in first capability.
 # *todo* ground rules for yaml lines of this file, to be written
 
 # note carefully that this is the title that will show
@@ -64,3 +64,9 @@ contributors:
 sub-parts:
   undefined
   undefined
+
+# ---
+# Note that it's critical that a metadata.yaml file _does not ever have_ this trailing ---
+# The reason: this trailing separator says there's another block to come.
+# For a Markdown fine, that's true -- the main Markdown text
+# But in a pure Yaml file, there isn't more to come - and it will break because empty!
