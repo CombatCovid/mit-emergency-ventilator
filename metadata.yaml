@@ -1,13 +1,19 @@
 ---
-# basis initial format for remote pickup of metadata by both client app and
-# the essential repo updates system, about to appear in first capability.
-# *todo* ground rules for yaml lines of this file, to be written
+# basis format for metadata.yaml, used by both client app and
+# the essential repo updates system in our project.
 
-# note carefully that this is the title that will show
-# in the Finder-Viewer app, and so _must_ be short enough to fit
+# note carefully that this first item is the title that will show
+# in the Finder-Viewer app, and so _must_ be short enough to fit,
+# in the standard size 'card' in the app's Finder screen, as others do.
 # the longTitle below lets such be in meta; no place to use it at present
-shortTitle: MIT Emergency Ventilator (E-Vent)
-# these names are fixed labels as must be used on repo by GitHub API, for our access
+title: MIT Emergency Ventilator (E-Vent)
+
+# now, if you want a larger title available for other use, put it here (optional)
+# we'll use a consistent tag naming throughout the metaData: the item by an itemname
+# for its type, then optionally a lonogItemname if you want to record such.
+longTitle: MIT Emergency Ventilator (E-Vent) Project - Emergency ventilator design toolbox
+
+# these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
 name: mit-emergency-ventilator
 nameWithOwner: CombatCovid/mit-emergency-ventilator
 
@@ -15,6 +21,11 @@ nameWithOwner: CombatCovid/mit-emergency-ventilator
 # the same for long descriptions in the languages
 # when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
 
+# under languages, having description (and keywords) is critical, but it's a good idea
+# to include a longDescription also, as we may in future use it, so that's shown here.
+# we'll also be sensibly limited in the number of languages we'll support, and you don't
+# need to have Korean. If you don't fill in a set of languages, be sure to at least fill
+# in English, or get help to do so, as this will always be the fallback.
 languages:
   EN:
     description: A low-cost ventilator, based on the collective wisdom of many clinicians
@@ -47,6 +58,17 @@ languages:
       신체적으로 숨을 쉴 수없는 환자에게
       또는 호흡이 불충분합니다.
 
+# below this point, we have done all the web app uses at present. We'll add
+# tags only above this point, if and when we may need them.there's freedom
+#
+# So there's freedom to bring in other items below, according to other project
+# needs, so long as you are careful and confident that they are valid Yaml.
+#
+# Test to be sure! Or your design might suddenly disappear from the
+# web Finder. It's not something possible to protect against, so use an
+# online tool, and _test_ your Yaml, please, and always. You'll have
+# our thanks, and especially thanks of persons who want to use your designs.
+
 project-link: https://e-vent.mit.edu/
 intended-use: >-
   tbd
@@ -66,7 +88,10 @@ sub-parts:
   undefined
 
 # ---
-# Note that it's critical that a metadata.yaml file _does not ever have_ this trailing ---
-# The reason: this trailing separator says there's another block to come.
+# Note that it's critical to know that a metadata.yaml file _must not ever have_
+# this trailing --- separator.
+
+# The reason: this trailing separator indicaates there's another block to come.
 # For a Markdown fine, that's true -- the main Markdown text
-# But in a pure Yaml file, there isn't more to come - and it will break because empty!
+# But in a our simple Yaml file, there isn't more to come - and though we now
+# protect, it's an error so may at some point break because what follows is empty!
