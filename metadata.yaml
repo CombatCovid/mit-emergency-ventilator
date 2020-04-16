@@ -1,69 +1,29 @@
 ---
-# basis format for metadata.yaml, used by both client app and
-# the essential repo updates system in our project.
+# Fresh basis format for metadata.yaml, responsive to the needs and
+# observations of the Content Team.
 
-# note carefully that this first item is the title that will show
-# in the Finder-Viewer app, and so _must_ be short enough to fit,
-# in the standard size 'card' in the app's Finder screen, as others do.
-# the longTitle below lets such be in meta; no place to use it at present
+# Primarily, all per-language texts are moved to short metatdata.yaml
+#  within their lanauage folders. For example, ES/metadata.yaml.
+
+#  This change means they are now very much simpler.
+
+# This root-folder metadata.yaml remains, for the many sorts of
+# information useful to document for the design, its contributors,
+# and the content team.
+
+# We leave opportunity for title/longTitle and name/nameWithOwnder here
+# at least for the time being, because that may possibly be useful,
+# but really for any proper software written in the future, title
+# etc. information should really in many ways come from the primary
+# language's metadata in the docs folder. That is the real source of truth.
+
 title: MIT Emergency Ventilator (E-Vent)
-
-# now, if you want a larger title available for other use, put it here (optional)
-# we'll use a consistent tag naming throughout the metaData: the item by an itemname
-# for its type, then optionally a lonogItemname if you want to record such.
 longTitle: MIT Emergency Ventilator (E-Vent) Project - Emergency ventilator design toolbox
 
 # these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
 name: mit-emergency-ventilator
 nameWithOwner: CombatCovid/mit-emergency-ventilator
 
-# markdown titles too long for Finder to show especially, we hold for any uses
-# the same for long descriptions in the languages
-# when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
-
-# under languages, having description (and keywords) is critical, but it's a good idea
-# to include a longDescription also, as we may in future use it, so that's shown here.
-# we'll also be sensibly limited in the number of languages we'll support, and you don't
-# need to have Korean. If you don't fill in a set of languages, be sure to at least fill
-# in English, or get help to do so, as this will always be the fallback.
-languages:
-  EN:
-    description: A low-cost ventilator, based on the collective wisdom of many clinicians
-    keywords: [patient,recovery,critical care,intensive care,icu,equipment,
-               emergency room,helper,treatment,hospital,operating room]
-    longDescription: >
-      A ventilator is a machine that provides mechanical ventilation
-      by moving breathable air into and out of the lungs, to deliver breaths
-      to a patient who is physically unable to breathe,
-      or breathing insufficiently.
-
-  ES:
-    description: Un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos.
-    keywords: [ paciente,recuperación,Cuidado crítico,
-                cuidados intensivos,icu,equipo,sala de emergencias,
-                ayudante,tratamiento,hospital,sala de operaciones ]
-    longDescription: >
-      Un ventilador es una máquina que proporciona ventilación mecánica.
-      moviendo aire respirable dentro y fuera de los pulmones,
-      para entregar respiraciones a un paciente que es físicamente
-      incapaz de respirar, o respirando insuficientemente.
-
-  KR:
-    keywords: [ 환자,회복,중요한 치료,집중 치료,아이쿠,장비,
-                응급실,돕는 사람,치료,병원,수술실 ]
-    description: 많은 임상의의 집단적 지혜에 기반한 저렴한 인공 호흡기
-    longDescription: >
-      인공 호흡기는 기계적 환기를 제공하는 기계입니다
-      통기성 공기를 폐 안팎으로 이동시켜 호흡
-      신체적으로 숨을 쉴 수없는 환자에게
-      또는 호흡이 불충분합니다.
-
-# below this point, we have done all the web app uses at present. We'll add
-# tags only above this point, if and when we may need them.there's freedom
-#
-# So there's freedom to bring in other items below, according to other project
-# needs, so long as you are careful and confident that they are valid Yaml.
-#
 # Test to be sure! Or your design might suddenly disappear from the
 # web Finder. It's not something possible to protect against, so use an
 # online tool, and _test_ your Yaml, please, and always. You'll have
@@ -89,9 +49,10 @@ sub-parts:
 
 # ---
 # Note that it's critical to know that a metadata.yaml file _must not ever have_
-# this trailing --- separator.
+# this trailing --- separator, commented out here.
 
-# The reason: this trailing separator indicaates there's another block to come.
+# The reason: this trailing separator indicates there's another block to come.
+#
 # For a Markdown fine, that's true -- the main Markdown text
-# But in a our simple Yaml file, there isn't more to come - and though we now
-# protect, it's an error so may at some point break because what follows is empty!
+# But in a our simple Yaml metadata, there isn't more to come - and though we now
+# protect, it's an error so may at some point break, because what follows it is empty!
