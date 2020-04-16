@@ -1,0 +1,54 @@
+---
+# This is basis format for per-language folder metadata.yaml, used by
+# the client app and its essential repo Index updates system in our project.
+
+# note carefully that this first item is the title that will show
+# in the Finder-Viewer app, and so _must_ be short enough to fit,
+# in the standard size 'card' in the app's Finder screen, as others do.
+# the longTitle below lets such be in meta; no place to use it at present
+title: MIT Emergency Ventilator (E-Vent)
+
+# now, if you want a larger title available for other use, put it here (optional)
+# we'll use a consistent tag naming throughout the metaData: the item by an itemname
+# for its type, then optionally a lonogItemname if you want to record such.
+longTitle: MIT Emergency Ventilator (E-Vent) Project - Emergency ventilator design toolbox
+
+# these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
+name: mit-emergency-ventilator
+nameWithOwner: CombatCovid/mit-emergency-ventilator
+
+# markdown titles too long for Finder to show especially, we hold for any uses
+# the same for long descriptions in the languages
+# when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
+
+# under languages, having description (and keywords) is critical, but it's a good idea
+# to include a longDescription also, as we may in future use it, so that's shown here.
+# we'll also be sensibly limited in the number of languages we'll support, and you don't
+# need to have Korean. If you don't fill in a set of languages, be sure to at least fill
+# in English, or get help to do so, as this will always be the fallback.
+
+description: Un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos.
+keywords: [ paciente,recuperación,Cuidado crítico,
+            cuidados intensivos,icu,equipo,sala de emergencias,
+            ayudante,tratamiento,hospital,sala de operaciones ]
+longDescription: >
+  Un ventilador es una máquina que proporciona ventilación mecánica.
+  moviendo aire respirable dentro y fuera de los pulmones,
+  para entregar respiraciones a un paciente que es físicamente
+  incapaz de respirar, o respirando insuficientemente.
+
+# These added items that follow will come to be part of the Finder material,
+# which can be shown with a quick touch or click, because they are powerful
+# shorthand first judgemen factors. Thus they need translation as well.
+medicalOpinion: >
+  Todavía no está disponible por expertos independientes, pero parece
+     hubo una vista médica sustancial en el diseño, y
+     parece que hay bastante reflexivo
+     notas de precaución en las instrucciones de construcción.
+buildDifficulty: >
+  Nuevamente, notas importantes en los documentos de diseño, discutiendo
+     riesgos inherentes al uso, que se reflejarán también en precisión, cuidado,
+     y calidad necesaria en la construcción
+relative cost: >
+  Esto se considera una solución de bajo costo. (ampliar, pero con el debido cuidado,
+     Figuras muy preferibles. $ 100? Pero verifique los hechos, asegúrelo.

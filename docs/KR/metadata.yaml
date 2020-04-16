@@ -1,0 +1,57 @@
+---
+# This is basis format for per-language folder metadata.yaml, used by
+# the client app and its essential repo Index updates system in our project.
+
+# note carefully that this first item is the title that will show
+# in the Finder-Viewer app, and so _must_ be short enough to fit,
+# in the standard size 'card' in the app's Finder screen, as others do.
+# the longTitle below lets such be in meta; no place to use it at present
+title: MIT 비상 팬 (E-Vent)
+
+# now, if you want a larger title available for other use, put it here (optional)
+# we'll use a consistent tag naming throughout the metaData: the item by an itemname
+# for its type, then optionally a lonogItemname if you want to record such.
+longTitle: MIT 응급 인공 호흡기 (E-Vent) 프로젝트-응급 인공 호흡기 설계 도구 상자
+
+# these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
+name: mit-emergency-ventilator
+nameWithOwner: CombatCovid/mit-emergency-ventilator
+
+# markdown titles too long for Finder to show especially, we hold for any uses
+# the same for long descriptions in the languages
+# when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
+
+# under languages, having description (and keywords) is critical, but it's a good idea
+# to include a longDescription also, as we may in future use it, so that's shown here.
+# we'll also be sensibly limited in the number of languages we'll support, and you don't
+# need to have Korean. If you don't fill in a set of languages, be sure to at least fill
+# in English, or get help to do so, as this will always be the fallback.
+l
+keywords: [ 환자,회복,중요한 치료,집중 치료,아이쿠,장비,
+            응급실,돕는 사람,치료,병원,수술실 ]
+description: 많은 임상의의 집단적 지혜에 기반한 저렴한 인공 호흡기
+longDescription: >
+  인공 호흡기는 기계적 환기를 제공하는 기계입니다
+  통기성 공기를 폐 안팎으로 이동시켜 호흡
+  신체적으로 숨을 쉴 수없는 환자에게
+  또는 호흡이 불충분합니다.
+
+# These added items that follow will come to be part of the Finder material,
+# which can be shown with a quick touch or click, because they are powerful
+# shorthand first judgemen factors. Thus they need translation as well.
+
+medicalOpinion: >
+  Not available from independent experts yet, but it appears
+  there was a substantial medical sight on the design, and it
+  appears there are quite thoughtful
+  cautionary notes in the build directions.
+buildDifficulty: >
+  Again, important notes in the design documents, discussing
+  risks inherent in use, which will reflect also on precision, care,
+  and quality needed in construction
+relative cost: >
+  This is felt to be a low cost solution. (expand, but with due care,
+  figures very preferable. $100? But fact check, assure.
+
+
+
