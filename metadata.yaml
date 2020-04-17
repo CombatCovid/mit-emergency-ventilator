@@ -1,58 +1,19 @@
 ---
-# Fresh basis format for metadata.yaml, responsive to the needs and
-# observations of the Content Team.
-
-# Primarily, all per-language texts are moved to short metatdata.yaml
-#  within their lanauage folders. For example, ES/metadata.yaml.
-
-#  This change means they are now very much simpler.
-
-# This root-folder metadata.yaml remains, for the many sorts of
-# information useful to document for the design, its contributors,
-# and the content team.
-
-# We leave opportunity for title/longTitle and name/nameWithOwnder here
-# at least for the time being, because that may possibly be useful,
-# but really for any proper software written in the future, title
-# etc. information should really in many ways come from the primary
-# language's metadata in the docs folder. That is the real source of truth.
-
 title: MIT Emergency Ventilator (E-Vent)
-longTitle: MIT Emergency Ventilator (E-Vent) Project - Emergency ventilator design toolbox
 
-# these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
+# Here goes the github repository data
+
+# Repository name
 name: mit-emergency-ventilator
+
+# Organization and repository name
 nameWithOwner: CombatCovid/mit-emergency-ventilator
 
-# Test to be sure! Or your design might suddenly disappear from the
-# web Finder. It's not something possible to protect against, so use an
-# online tool, and _test_ your Yaml, please, and always. You'll have
-# our thanks, and especially thanks of persons who want to use your designs.
+# We are now documenting in english for to keep it simple
+languages:
+  EN:
+    description: A low-cost ventilator, based on the collective wisdom of many clinicians at MIT
+    keywords: [patient,recovery,critical care,intensive care,icu,equipment,
+               emergency room,helper,treatment,hospital,operating room]
 
-project-link: https://e-vent.mit.edu/
-intended-use: >-
-  tbd
-made: true
-made-independently: false
-license:
-  hardware: undefined
-okh-manifest-version: 1.0.0
-date-updated: 2020-03-31
-manifest-author:
-  name: MiT people
-  affiliation: MIT
-contributors:
-  undefined
-sub-parts:
-  undefined
-  undefined
-
-# ---
-# Note that it's critical to know that a metadata.yaml file _must not ever have_
-# this trailing --- separator, commented out here.
-
-# The reason: this trailing separator indicates there's another block to come.
-#
-# For a Markdown fine, that's true -- the main Markdown text
-# But in a our simple Yaml metadata, there isn't more to come - and though we now
-# protect, it's an error so may at some point break, because what follows it is empty!
+# end of app metadata
