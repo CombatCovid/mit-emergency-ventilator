@@ -7,7 +7,7 @@ pdf_document:
 latex_engine: pdflatex
 toc: true
 lof: true
-numberSections: true
+numberSections: false
 highlight: tango
 sectionsDepth: 3
 chapters: True

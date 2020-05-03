@@ -8,7 +8,7 @@
 
 2. Source files for mechanical design:
 
-- [CAD files](../../src/3.1-STEP-and-DXF): with help from Neal Drapeau
+- [CAD files](../../src/3.1-STEP-and-DXF/3.1 STEP and DXF/DXF): with help from Neal Drapeau
 - Mechanical BOM: [Spreadsheet](../../src/Mechanical-BOM_20200404.xlsx)
 
 3. Access the code from GitHub, [in the e-vent repo](https://github.com/mit-drl/e-vent)
@@ -25,7 +25,7 @@
 
 5. Source files for circuit diagram:
 
-- KiCad project: [Source files](../../src/eventArduinoMega) , and [Gerber files](../../src/arduinoMegaEVentGerber)
+- KiCad project: [Source files](../../src/eventArduinoMega/arduino-kicad-library-master/Arduino.pretty) , and [Gerber files](../../src/arduinoMegaEVentGerber/arduinoMegaEVent)
 - Electrical BOM: [Spreadsheet](../../src/Electronics-BOM_20200410.xlsx)
 
 6. Past Designs

@@ -1,1 +1,1 @@
-pandoc  metadata-pandoc.yaml 01-Getting-started.md 02-BOM-instructable.md -s  --number-sections   -o  MIT-E-Vent-Project-Version-3.pdf
+pandoc  metadata-pandoc.yaml 01-Getting-started.md 02-BOM-instructable.md 03-Key-Ventilation-Specifications.md 04-Clinical-studies.md -s  --number-sections  --toc  --mathjax  --filter=pandoc-crossref.exe --filter=pandoc-citeproc.exe  -o  MIT-E-Vent-Project-Version-3.pdf
