@@ -1,0 +1,53 @@
+---
+# This is basis format for per-language folder metadata.yaml, used by
+# the client app and its essential repo Index updates system in our project.
+
+# note carefully that this first item is the title that will show
+# in the Finder-Viewer app, and so _must_ be short enough to fit,
+# in the standard size 'card' in the app's Finder screen, as others do.
+# the longTitle below lets such be in meta; no place to use it at present
+title: MIT Emergency Ventilator (E-Vent)
+
+# now, if you want a larger title available for other use, put it here (optional)
+# we'll use a consistent tag naming throughout the metaData: the item by an itemname
+# for its type, then optionally a lonogItemname if you want to record such.
+longTitle: MIT Emergency Ventilator (E-Vent) Project - Emergency ventilator design toolbox
+
+# these names we use are all fixed labels, as they are used on repo by GitHub API, and so our web app
+name: mit-emergency-ventilator
+nameWithOwner: CombatCovid/mit-emergency-ventilator
+
+# markdown titles too long for Finder to show especially, we hold for any uses
+# the same for long descriptions in the languages
+# when text may fit, then they are the same in topic and longTopic yaml itemslongTitle: MIT Emergency Ventilator (E-Vent) Project
+
+# under languages, having description (and keywords) is critical, but it's a good idea
+# to include a longDescription also, as we may in future use it, so that's shown here.
+# we'll also be sensibly limited in the number of languages we'll support, and you don't
+# need to have Korean. If you don't fill in a set of languages, be sure to at least fill
+# in English, or get help to do so, as this will always be the fallback.
+
+description: A low-cost ventilator, based on the collective wisdom of many clinicians
+keywords: [patient,recovery,critical care,intensive care,icu,equipment,
+           emergency room,helper,treatment,hospital,operating room]
+longDescription: >
+  A ventilator is a machine that provides mechanical ventilation
+  by moving breathable air into and out of the lungs, to deliver breaths
+  to a patient who is physically unable to breathe,
+  or breathing insufficiently.
+
+# These added items that follow will come to be part of the Finder material,
+# which can be shown with a quick touch or click, because they are powerful
+# shorthand first judgemen factors. Thus they need translation as well.
+medicalOpinion: >
+  Not available from independent experts yet, but it appears
+  there was a substantial medical sight on the design, and it
+  appears there are quite thoughtful
+  cautionary notes in the build directions.
+buildDifficulty: >
+  Again, important notes in the design documents, discussing
+  risks inherent in use, which will reflect also on precision, care,
+  and quality needed in construction
+relative cost: >
+  This is felt to be a low cost solution. (expand, but with due care,
+  figures very preferable. $100? But fact check, assure.

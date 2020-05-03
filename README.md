@@ -1,26 +1,55 @@
 ---
-title: MIT Emergency Ventilator (E-Vent) Project
-description: "A ventilator is a machine that provides mechanical ventilation by moving
-  breathable air into and out of the lungs, to deliver breaths to a patient who
-  is physically unable to breathe, or breathing insufficiently. "
-  
-summaryText: /Readme.md
-summaryImage: /summary.jpg
-keywords:
-  - covid-19
-  - medical equipment
-  - patient 
-  - recovery 
-  - critical 
-  - intensive care 
-  - equipment 
-  - emergency 
-  - emt 
-  - treatment 
-  - hospital
-  - operating room
+# basis test for remote pickup of metadata by both client app and 
+# the essential repo updates system to come. 
+# *todo* ground rules for yaml lines of this file, to be written 
+
+# note carefully that this is the title that will show 
+# in the Finder-Viewer app, and so _must_ be short enough to fit
+# the longTitle below lets such be in meta; no place to use it at present
+shortTitle: MIT Emergency Ventilator (E-Vent)
+# these names are fixed labels as must be used on repo by GitHub API, for our access
+name: mit-emergency-ventilator
+nameWithOwner: CombatCovid/mit-emergency-ventilator
+
+# markdown titles too long for Finder to show especially, we hold for any uses
+# the same for long descriptions in the languages
+# when text may fit, then they are the same in topic and longTopic yaml items
+longTitle: MIT Emergency Ventilator (E-Vent) Project
+
+languages:
+  EN:
+    description: A low-cost ventilator, based on the collective wisdom of many clinicians
+    keywords: [patient,recovery,critical care,intensive care,icu,equipment,
+      emergency room,helper,treatment,hospital,operating room]
+    longDescription: >
+      A ventilator is a machine that provides mechanical ventilation 
+      by moving breathable air into and out of the lungs, to deliver breaths
+      to a patient who is physically unable to breathe, 
+      or breathing insufficiently.
+
+  ES:
+    description: Un ventilador de bajo costo, basado en la sabiduría colectiva de muchos médicos.
+    keywords: [ paciente,recuperación,Cuidado crítico,
+      cuidados intensivos,icu,equipo,sala de emergencias,
+      ayudante,tratamiento,hospital,sala de operaciones ]
+    longDescription: >
+      Un ventilador es una máquina que proporciona ventilación mecánica.
+      moviendo aire respirable dentro y fuera de los pulmones, 
+      para entregar respiraciones a un paciente que es físicamente 
+      incapaz de respirar, o respirando insuficientemente.
+      
+  KR:
+    keywords: [ 환자,회복,중요한 치료,집중 치료,아이쿠,장비,
+      응급실,돕는 사람,치료,병원,수술실 ]
+    description: 많은 임상의의 집단적 지혜에 기반한 저렴한 인공 호흡기
+    longDescription: >
+      인공 호흡기는 기계적 환기를 제공하는 기계입니다
+      통기성 공기를 폐 안팎으로 이동시켜 호흡
+      신체적으로 숨을 쉴 수없는 환자에게
+      또는 호흡이 불충분합니다.
+ 
 project-link: https://e-vent.mit.edu/
-intend-use: >-
+intended-use: >-
     tbd
 made: true
 made-independently: false
@@ -32,12 +61,12 @@ manifest-author:
   name: MiT people
   affiliation: MIT
 contributors:
-  - undefined
+  undefined
 sub-parts:
-  - undefined
-  - undefined
+  undefined
+  undefined
+  
 ---
-
 
 # Title: MIT Emergency Ventilator (E-Vent) Project
 
@@ -89,4 +118,4 @@ We are releasing this material with the intent to provide those with the ability
 
 As with any research to design to scale-up to manufacture, we anticipated that there will be many problems and it is our goal to provide this site as a tool to “close the loop” and receive feedback. We will also do our best to publish the most relevant pieces of information in the discussion forum for all to see.
 
-We invite anyone who is interested to follow this work.
+We invite anyone who is interested to follow this work. 
