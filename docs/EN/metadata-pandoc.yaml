@@ -6,7 +6,7 @@ classoption: onecolumn
 pdf_document:
 latex_engine: pdflatex
 toc: true
-lof: true
+lof: false
 numberSections: false
 highlight: tango
 sectionsDepth: 3
