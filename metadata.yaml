@@ -1,5 +1,4 @@
 ---
-<<<<<<< HEAD
 # Comments are expressed with a # preceding the line of text
 # Be as explicit and contextual as possible
 title: MIT Emergency Ventilator(E-Vent) Project
@@ -24,23 +23,3 @@ languages:
                emergency room,bag-valve mask,treatment,portable ventilator,hospital,operating room]
 
 # end of app metadata
-=======
-title: MIT Emergency Ventilator (E-Vent)
-
-# Here goes the github repository data
-
-# Repository name
-name: mit-emergency-ventilator
-
-# Organization and repository name
-nameWithOwner: CombatCovid/mit-emergency-ventilator
-
-# We are now documenting in english for to keep it simple
-languages:
-  EN:
-    description: A low-cost ventilator, based on the collective wisdom of many clinicians at MIT
-    keywords: [patient,recovery,critical care,intensive care,icu,equipment,
-               emergency room,helper,treatment,hospital,operating room]
-
-# end of app metadata
->>>>>>> ab5f0e277a2e0149b2d6f8aea0c1d5b79f530e12
