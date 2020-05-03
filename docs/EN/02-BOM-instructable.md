@@ -3,7 +3,7 @@
 
 1.  The new design in a nutshell is shown here:
 
-![Collage of all views](../img/version_3/collage-of-all-views.png)
+![Collage of all hardware views](../img/version_3/collage-of-all-views.png)
 
 
 2. Source files for mechanical design:
