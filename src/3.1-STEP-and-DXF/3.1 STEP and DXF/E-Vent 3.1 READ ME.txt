@@ -1,0 +1,6 @@
+NOTE for E-Vent CAD 3.1 STEP : 
+
+- The motor plate has mounting holes to support multiple motors in gear drive and direct drive configuration. Only the configuration shown in the images has been verfied to meet our specs. 
+- Minimum recommended thickness of arms is 1/4" ( ~6 mm) 
+- Material for arms: Aluminium will barely survive 500k cycles; steel with hardened teeth (Rockwell C 45) is recommended. Stainless to stainless contact should be avoided
+- Pinion ( driving gear) should be wider than the arms to account for misalignment 
