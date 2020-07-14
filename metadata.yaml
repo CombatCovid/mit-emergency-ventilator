@@ -2,7 +2,7 @@
 # Comments are expressed with a # preceding the line of text
 # Be as explicit and contextual as possible
 title: MIT Emergency Ventilator(E-Vent) Project
-finderPriority: 6 # a nice place on first page
+finderPriority: 600 # a nice place on first page
 
 # Name of the actual github repository
 name: mit-emergency-ventilator
